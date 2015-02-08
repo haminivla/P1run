@@ -1,4 +1,6 @@
 run_analysis <- function() {
+	
+	library(data.table)
 
 	## Read all necessary files
 	features <- readLines("features.txt")
